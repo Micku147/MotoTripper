@@ -1,0 +1,401 @@
+body{
+    background: #FFFFFF;
+}
+
+
+.h1, h1 {
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2.2em;
+}
+
+
+.container
+{
+    overflow: hidden;
+    margin: 0em auto;
+    width: 1000px;
+}
+.whiteFont{
+    color: white;
+
+}
+.sendButton{
+    text-align: center;
+}
+#my_centered_buttons { display: flex; justify-content: center; }
+
+.afterlogo{
+    padding: 120px 0 5px;
+}
+.logoutPadding{
+    padding-right: 2em;
+}
+
+#loginpadding{
+    padding-left: 15em;
+    padding-right: 15em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.break-word {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+#relative{
+    position: relative;
+}
+
+#okono{
+    position: absolute;
+    left: 500px;
+}
+
+
+.box-left {
+    float: left;
+}
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper
+{
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+#header
+{
+    position: relative;
+    padding: 7em 0em;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+}
+
+#logo h1
+{
+    position: absolute;
+    top: 0;
+    left:  1.2em ;
+    padding: 1em 1em;
+    background: darkblue;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+    position: absolute;
+    top: 4em;
+    right: 0;
+}
+
+#menu ul
+{
+    display: inline-block;
+}
+
+#menu li
+{
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#menu li a, #menu li span
+{
+    padding: 1em 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    font-weight: 600;
+    color: #FFF;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+    background: darkblue;
+    border-radius: 5px;
+}
+
+#menu .current_page_item a
+{
+}
+
+#menu .icon
+{
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner
+{
+    padding: 6em 0em;
+}
+
+#banner span
+{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #FFF;
+}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#page
+{
+    padding-bottom: 5em;
+}
+
+#page h2
+{
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#content
+{
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+#sidebar
+{
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer
+{
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+    overflow: hidden;
+    padding: 2em 0em;
+    background: darkblue;
+}
+
+#copyright p
+{
+    background: darkblue;
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(255,255,255,0.6);
+}
+
+#copyright a
+{
+    background: darkblue;
+    text-decoration: none;
+    color: rgba(255,255,255,0.9);
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title
+{
+    margin-bottom: 3em;
+    text-transform: uppercase;
+}
+
+.title h2
+{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.title .byline
+{
+    font-size: 1.1em;
+    color: #6F6F6F;
+}
+
+/*********************************************************************************/
+/* Staff                                                                         */
+/*********************************************************************************/
+
+#staff
+{
+    padding: 5em 0em;
+    text-align: center;
+}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+#welcome
+{
+    padding: 5em 0em 5em 0em;
+    border-top: 1px solid rgba(0,0,0,.1);
+    text-align: center;
+}
+
+ul.style3
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    color: #6c6c6c
+}
+
+ul.style3 li
+{
+    padding: 1.6em 0em 0em 0em;
+    margin: 0 0 1em 0;
+}
+
+ul.style3 p
+{
+    margin: 0;
+}
+
+ul.style3 a
+{
+    display: block;
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+ul.style3 a:hover
+{
+    text-decoration: underline;
+}
+
+ul.style3 h3
+{
+    padding: 1em 0em 5px 0em;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+ul.style3 .first
+{
+    padding-top: 0;
+    background: none;
+}
+
+ul.style3 .date
+{
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 70px;
+    margin: 0.5em 1.5em 0em 0.5em;
+    padding: 20px 0em 0em 0em;
+    background: #262626;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.1);
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.2);
+    font-size: 1em;
+    font-weight: 400;
+    color: #FFF;
+}
+
+ul.style3 .date:after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+ul.style3 .date b
+{
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-top: -5px;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+ul.style3 .date a
+{
+    color: #FFFFFF !important;
+}
+
+ul.style3 .date a:hover
+{
+    text-decoration: none;
+}
+
+ul.style4
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.style4 li
+{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    line-height: 3em;
+}
+
+ul.style4 a
+{
+    color: #2D2D2D;
+}
+
+ul.style4 .first
+{
+    padding-top: 0px;
+    border-top: none;
+}
